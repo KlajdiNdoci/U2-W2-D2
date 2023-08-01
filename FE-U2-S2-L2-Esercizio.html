@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
 
 In questa pagina aggiungerai destinazioni di posti che sogni di visitare in futuro.
@@ -92,201 +90,294 @@ EXTRAS
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
 
 -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
 
-
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 rounded rounded-1 ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/187/187829.png?w=1380&t=st=1690892656~exp=1690893256~hmac=239f1bd27117697fa1d31828c98400976f80dcac34a6f183b61cb48437688cbc" width="50px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Saldi</a>
-              </li> 
-             <li class="nav-item">
-                <a class="nav-link" href="#">Welcome Summer</a>
-              </li> 
-              <li class="nav-item">
-                 <a class="nav-link" href="#">Last Minute</a>
-               </li> 
-              <li class="nav-item">
-                 <a class="nav-link" href="#">Recensioni</a>
-               </li> 
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search">
-            </form>
-          </div>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 rounded rounded-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/187/187829.png?w=1380&t=st=1690892656~exp=1690893256~hmac=239f1bd27117697fa1d31828c98400976f80dcac34a6f183b61cb48437688cbc"
+            width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recensioni</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
+          </form>
         </div>
-      </nav>
-      <main class="p-0">
-<div class="container text-center text-lg-start ">
-            <div class="row p-5 bg-body-tertiary mb-5 justify-content-center justify-content-lg-start">
-                    <h1 class="display-2 text-secondary  border-bottom py-3 px-0">
-                        Epicode-Air-
-                        <span class="fs-5 text-black align-middle">
-                           Feel the freedom
-                        </span>
-                    </h1>
-                    <h2 class="fst-italic text-secondary fw-normal pb-5">Scopri le destinazioni piú calde del momento!</h2>
-                    <button class="col-4 col-md-3 col-lg-2 btn btn-info fw-bold text-white ">Prenota ora</button>
-            </div>
-</div>
+      </div>
+    </nav>
+    <main class="p-0">
+      <div class="container text-center text-lg-start">
+        <div class="row p-5 bg-body-tertiary mb-5 justify-content-center justify-content-lg-start">
+          <h1 class="d-flex display-2 text-secondary border-bottom py-3 px-0">
+            Epicode-Air<span class="display-2">-</span>
+            <span class="d-flex fs-5 text-black align-middle ms-n4 align-self-center mt-3"> Feel the freedom </span>
+          </h1>
+          <h2 class="fst-italic text-secondary fw-normal pb-5">Scopri le destinazioni piú calde del momento!</h2>
+          <button class="col-4 col-md-3 col-lg-2 btn btn-info fw-bold text-white">Prenota ora</button>
+        </div>
+      </div>
       <div class="container mb-5">
-            <div class="d-flex mb-2"><h4>Saldi </h4><p class="ms-auto text-info">Nascondi sezione</p></div>
-            <div class="container p-0">
-
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-3 g-lg-4">
-                <div class="col">
-                  <div class="card border-2 border-info">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-2 border-info">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-2 border-info">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col d-md-none d-lg-block">
-                  <div class="card border-2 border-info">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
+        <div class="d-flex mb-2">
+          <h4>Saldi</h4>
+          <p class="ms-auto text-info">Nascondi sezione</p>
+        </div>
+        <div class="container p-0">
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-3 g-lg-4">
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
                 </div>
               </div>
-
             </div>
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col d-md-none d-lg-block">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container mb-5">
         <div class="container p-0">
-            <div class="d-flex mb-2"><h4>Welcome Summer </h4><p class="ms-auto text-info">Nascondi sezione</p></div>
+          <div class="d-flex mb-2">
+            <h4>Welcome Summer</h4>
+            <p class="ms-auto text-info">Nascondi sezione</p>
+          </div>
 
-
-            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xxl-6 g-2 g-md-3 g-lg-4">
-                <div class="col">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card shadow">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="card-img-top" alt="...">
-                    <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0  m-2 fw-medium">HOT</span>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque expedita et.</p>
-                      <a href="#" class="btn btn-info">Prenota</a>
-                    </div>
-                  </div>
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xxl-6 g-2 g-md-3 g-lg-4">
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
                 </div>
               </div>
-
-
             </div>
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <img
+                  src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <span class="bg-danger text-white px-2 rounded-1 position-absolute top-0 end-0 m-2 fw-medium">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, officiis corrupti non itaque
+                    expedita et.
+                  </p>
+                  <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      
+
       <div class="container mb-5 d-none d-md-block">
         <h4 class="col-12">Offerta del giorno</h4>
-            <div class=" col-12 card mb-3 border-0 ">
-                <div class="row g-0">
-                  <div class="col">
-                    <img src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg" class="img-fluid rounded " max-height="100px" alt="...">
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <h5 class="card-title display-4">Tokyo</h5>
-                      <p>15.01.2021-31.01.2021</p>
-                      <p class="card-text">Ville a partire da 500€, non fartele sfuggire!</p>
-<button class="btn btn-dark rounded-5 py-0">Best offer</button>
-                    </div>
-                  </div>
-                </div>
+        <div class="col-12 card mb-3 border-0">
+          <div class="row g-0">
+            <div class="col">
+              <img
+                src="https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/3:2/w_6000,h_4000,c_limit/AdobeStock_251121174.jpeg"
+                class="img-fluid rounded"
+                height="50"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title display-4">Tokyo</h5>
+                <p>15.01.2021-31.01.2021</p>
+                <p class="card-text">Ville a partire da 500€, non fartele sfuggire!</p>
+                <button class="btn btn-dark rounded-5 py-0">Best offer</button>
               </div>
+            </div>
+          </div>
+        </div>
       </div>
-          </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
-
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
